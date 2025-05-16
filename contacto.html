@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Poms Society Lima - Contacto</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body {
+      background-color: #fceee8;
+      color: #000000;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      color: #e75480;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .form-container {
+      background-color: white;
+      border: 2px solid #e75480;
+      border-radius: 15px;
+      padding: 30px;
+      margin: 50px auto;
+      max-width: 600px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    .submit-btn {
+      margin-top: 20px;
+      background-color: #e75480;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .submit-btn:hover {
+      background-color: #f275a5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h1>Poms Society Lima</h1>
+    <h2>Déjanos tus datos</h2>
+
+    <form>
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre">
+
+      <label for="pomcito">Nombre de tu pomcito:</label>
+      <input type="text" id="pomcito" name="pomcito">
+
+      <label for="mail">Mail:</label>
+      <input type="email" id="mail" name="mail">
+
+      <label for="telefono">Teléfono:</label>
+      <input type="tel" id="telefono" name="telefono">
+
+      <label for="comentario">Comentario:</label>
+      <textarea id="comentario" name="comentario" rows="4" maxlength="250" placeholder="Máximo 250 caracteres..."></textarea>
+
+      <button type="submit" class="submit-btn">Enviar</button>
+    </form>
+  </div>
+
+    <footer class="border-top d-flex justify-content-between align-items-center p-3">
+    <span class="text-muted d-flex align-items-center gap-2">
+      &copy; 2025 @pomsocietylima
+      <a href="https://instagram.com" target="_blank" class="text-muted fs-5">
+        <i class="bi bi-instagram"></i>
+      </a>
+    </span>
+  </footer>
+
+</body>
+</html>
